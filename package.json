@@ -1,0 +1,26 @@
+{
+  "name": "react-custom-element",
+  "version": "1.0.0",
+  "description": "HOC to register a custom element which will wrap a React component.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspaulding/react-custom-element.git"
+  },
+  "keywords": [
+    "react",
+    "custom",
+    "element",
+    "web",
+    "components"
+  ],
+  "author": "Bradley J. Spaulding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bspaulding/react-custom-element/issues"
+  },
+  "homepage": "https://github.com/bspaulding/react-custom-element#readme"
+}
