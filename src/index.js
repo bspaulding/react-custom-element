@@ -4,7 +4,6 @@
 
 import React from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
-// import 'webcomponents.js';
 
 export function registerCustomElement(ComponentClass: ReactClass<any>, tagName: string) {
 	var elementPrototype = Object.create(HTMLElement.prototype);
