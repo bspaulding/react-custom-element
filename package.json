@@ -4,6 +4,10 @@
   "description": "HOC to register a custom element which will wrap a React component.",
   "main": "dist/bundle.js",
   "scripts": {
+    "build": "rollup -c",
+    "flow": "flow check",
+    "lint": "eslint src",
+    "prepublish": "NODE_ENV=ci rollup -c",
     "test": "jest"
   },
   "repository": {
@@ -22,5 +26,19 @@
   "bugs": {
     "url": "https://github.com/bspaulding/react-custom-element/issues"
   },
-  "homepage": "https://github.com/bspaulding/react-custom-element#readme"
+  "homepage": "https://github.com/bspaulding/react-custom-element#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-flowtype": "^2.25.0",
+    "eslint-plugin-react": "^6.4.1",
+    "flow-bin": "^0.33.0",
+    "flow-typed": "^2.0.0",
+    "jest": "^16.0.2",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1"
+  }
 }
