@@ -13,7 +13,7 @@ npm install react-custom-element webcomponents.js
 import { registerCustomElement } from 'react-custom-element';
 import 'webcomponents.js';
 
-const HelloWord = ({ name = "World" }) => (
+const HelloWorld = ({ name = "World" }) => (
   <span>Hello, {name}!</span>
 );
 
